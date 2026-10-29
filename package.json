@@ -1,0 +1,11 @@
+{
+  "name": "shikaku-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "bump": "node tools/release.mjs bump",
+    "icons": "node tools/make-icons.mjs",
+    "serve": "python tools/devserver.py 8790"
+  }
+}

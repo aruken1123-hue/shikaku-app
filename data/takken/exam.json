@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "takken",
+  "name": "宅地建物取引士",
+  "shortName": "宅建",
+  "revision": 1,
+  "updated": "2026-10-29",
+  "exam": { "questions": 50, "minutes": 120, "choices": 4, "passLineHint": 36 },
+  "nextExamDate": "2027-10-17",
+  "nextExamDateNote": "10月第3日曜の見込み。正式日程の公表後に確認する",
+  "subjects": [
+    { "id": "kenri",   "name": "権利関係",     "count": 14 },
+    { "id": "gyouhou", "name": "宅建業法",     "count": 20 },
+    { "id": "seigen",  "name": "法令上の制限", "count": 8 },
+    { "id": "zei",     "name": "税・その他",   "count": 8 }
+  ],
+  "questionFiles": ["q-kenri.json", "q-gyouhou.json", "q-seigen.json", "q-zei.json"]
+}

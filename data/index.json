@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-29",
+  "exams": [
+    { "id": "takken", "name": "宅地建物取引士", "path": "takken/exam.json", "revision": 1 }
+  ]
+}

@@ -1,0 +1,5 @@
+private/
+node_modules/
+__pycache__/
+*.pyc
+テストの始め方.md
